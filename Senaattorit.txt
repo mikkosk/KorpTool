@@ -1,0 +1,14 @@
+Johan;Mauritz;Nordenstam;1858;1882
+Frans;Ivar;Edelheim;1865;1867
+Carl;Olof;Cronstedt;1868;1870
+Clas;Herman;Molander;1870;1871
+Theodor;Sebastian;Thilén;1873;1882
+Axel;Ludvig;Born;1863;1867
+Johan;Vilhelm;Snellman;1863;1868
+Clas;Herman;Molander;1869;1882
+Johan;Philip;Palmén;1868;1871
+Henrik;Adolf;Mechelin;1869;1882
+Mauritz;Wilhelm;Nordenheim;1858;1865
+Samuel;Henrik;Antell;1866;1874
+Albert;Werner;Nykopp;1874;1882
+Carl;Olof;Cronstedt;1858;1868
