@@ -1,8 +1,6 @@
 
-import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import static com.google.gson.JsonParser.parseString;
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,23 +11,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.file.Paths;
 import java.util.Scanner;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author mikko
- */
-public class reader {
+public class Senaattorit {
 
     public static void main(String[] args) throws MalformedURLException, IOException {
         String base1 = "https://korp.csc.fi/cgi-bin/korp.cgi?command=count&groupby=word&defaultcontext=1+sentence&corpus=KLK_FI_18(";
@@ -67,7 +51,6 @@ public class reader {
                 String valmis = base1 + vuodet + base2 + pilkottu[0] + base3 + pilkottu[1] + base3 + pilkottu[2] + base4;
                 String valmis2 = base1 + vuodet + base2 + pilkottu[0].substring(0, 1) + "." + base3 + pilkottu[1].substring(0, 1) + "." + base3 + pilkottu[2] + base4;
                 String valmis3 = base1 + vuodet + base2 + "senaattori" + base3 + pilkottu[2] + base4;
-                System.out.println(valmis2);
                 
                 names[n] = pilkottu[2] + "Abs";
                 n++;
